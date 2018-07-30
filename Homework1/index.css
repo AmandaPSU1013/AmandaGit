@@ -75,8 +75,7 @@ h1 {
     background-color: lightgrey;
     width: 100%;
     padding:30px;
-    border-top: 5px teal solid;
-    position: fixed;
-    bottom:0;
-
+    border-top: 5px teal solid;    bottom:0;
+position:fixed;
+bottom:opx;
 }

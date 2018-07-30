@@ -1,102 +1,107 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
 
- * {
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  body {
-    background-image: url(main.jpg)
-  }
+body {
+  background-image: url(main.jpg)
+}
 
-  
-  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #Amanda {
+  background-color: lightseagreen;
+  font-family: cursive;
+  color: black;
+  font-size: 30px;
+  padding: 50px;
+  text-align: center;
+  line-height: 1.5em;
+  width: 300px;
+  height: 250px: position:fixed;
+  left: o;
+  top: 0;
+  margin-left: 30px;
+  border: 5px pink solid;
+}
 
+h4 {
   background-color: teal;
-    font-family: Georgia;
-    color:black;
-    font-size: 30px;
-    padding: 50px;
-    text-align: center;
-    line-height: 1.5em;
-    width: 300px;
-    height: 250px: 
-    position:fixed;
-    left: o;
-    top: 0;
-    margin-left: 30px;
-    border: 5px pink solid; 
-  
+  width: 100% text-align: center;
 }
-  h4 {
-    background-color: teal;
-    width: 100%
-    text-align: center;
-  }
+
 header {
-color:teal;
-font-size:20px;
-font-family:Arial, Helvetica, sans-serif;
-text-align:left;
+  color: teal;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 10px;
+  font-style: oblique;
 }
-  
-  #link {
-    position:fixed;
-    top:75px;
-    right:300px;
-  }
 
-  #Hangman {
-    float: left;
-    width: 33.3%;
-    height:300px;
-    color: #fff;
-    background: #888;
-    margin-left: 30px;
-  }
-  
-  #RPGGame {
-    float: left;
-    width: 33.3%;
-    height:300px;
-    color: #fff;
-    background: #666;
-    margin-left:20px;
-    
-  }
-  
-  #TriviaGame {
-    width:33.3%;
-    height:300px;
-    overflow: auto;
-    clear: both;
-    background: #eee;
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-  
-  #RutgersInfoWidget{
-    padding: 20px;
-    position:fixed;
-    left:600px;
-    margin-top: 20px;
-    background: #6ea3da;
-    clear;
-  }
-  
-  #RockPaperScissors {
-    float: left;
-    width: 33%;
-    height: 300px;
-    padding: 20px;
-    margin-left: 30px;
-    background: #fff;
-    border: 2px solid blue;
-  }
-  
-
-  
-    
+#link {
+  position: absolute;
+  top: 50px;
+  right: 1590px;
+}
+#link1 {
+  position:absolute;
+  top:50px;
+  right:100px;
+}
 
 
+
+.hangman {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: purple;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#RPGGame {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#TriviaGame {
+  float:left;
+  width: 33.3%;
+  height: 300px;
+  background-color: blue;
+  margin-left: 20px;
+  border: 3px purple solid;
+  margin-top: 20px;
+}
+
+#RutgersInfoWidget {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  background-color: coral;
+  margin-left: 20px;
+  border: 3px purple solid;
+  margin-top: 20px;
+}
+
+#RockPaperScissors {
+  overflow: auto;
+  clear: both;
+  width: 33%;
+  height: 300px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+  background-color: pink;
+  border: 2px solid blue;
+}
