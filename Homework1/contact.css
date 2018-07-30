@@ -17,10 +17,10 @@
 }
 
 body {
-    background-image: url(main.jpg)
+    background-image: url(grey.jpg)
 }
 #Amanda {
-    background-color: teal;
+    background-color: black;
     color: white;
     font-family: Georgia;
     font-size: 30px;
