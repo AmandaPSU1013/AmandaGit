@@ -60,7 +60,11 @@ h1 {
   top:50px;
   right:100px;
 }
-
+#link2 {
+  position:absolute;
+  top:50px;
+  right:300px;
+}
 
 .hangman {
   float: left;
