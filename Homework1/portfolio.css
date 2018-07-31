@@ -14,7 +14,7 @@ body {
 }
 
 #Amanda {
-  background-image:url(black.jpg);
+  background-color: teal;
   font-family: cursive;
   color: white;
   font-size: 30px;
@@ -26,23 +26,28 @@ body {
   left: o;
   top: 0;
   margin-left: 30px;
-  border: 5px pink solid;
+  border: 5px black solid;
 }
 
+header {
+  color:black;
+  font-size:30px;
+}
 h4 {
   background-color: teal;
   width: 100% ;
  text-align: center;
+ margin-top:250px;
 }
 
-header {
+h1 {
   color: teal;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   margin-top: 10px;
   font-style: oblique;
-  border:2px black solid;
+  border-bottom:2px black solid;
 }
 
 #link {
@@ -64,7 +69,7 @@ header {
   background-image:url(download.jpg);
   margin-left: 20px;
   margin-top: 20px;
-  border: 5px royalblue solid;
+  border: 5px black solid;
 }
 
 #RPGGame {
@@ -74,7 +79,7 @@ header {
   background-image:url(mix.jpg);
   margin-left: 20px;
   margin-top: 20px;
-  border: 5px royalblue solid;
+  border: 5px black solid;
 }
 
 #TriviaGame {
@@ -83,7 +88,7 @@ header {
   height: 300px;
   background-image:url(earplugs.jpg);
   margin-left: 20px;
-  border: 5px royalblue solid;
+  border: 5px black solid;
   margin-top: 20px;
 }
 
@@ -93,7 +98,7 @@ header {
   height: 300px;
   background-image:url(iphone.jpg);
   margin-left: 20px;
-  border: 5px royalblue solid;
+  border: 5px black solid;
   margin-top: 20px;
 }
 
@@ -106,4 +111,4 @@ header {
   margin-left: 20px;
   margin-top: 40px;
   background-image:url(tv.jpg);
-  border: 5px solid royalblue;
+  border: 5px solid;
